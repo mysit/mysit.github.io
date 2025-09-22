@@ -7,7 +7,7 @@ body{
     background-image: url(https://avatars.mds.yandex.net/i?id=bc7ecf8bd67d437fa6d02ad74c6c7de61be8d29d-3855076-images-thumbs&n=13);
     background-repeat: repeat;
     background-size: contain;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
@@ -26,21 +26,6 @@ header{
     height: 100px;
     margin: 20px;
     float: left;
-    animation: log 4s ;
-}
-
-@keyframes log{
-    0%{
-        transform: rotate(0deg) scale(1);
-    }
-    50%{
-        transform: rotate(360deg) scale(15);
-        margin-left: 50%;
-        margin-top:100px;
-    }
-    100%{
-        transform: rotate(720deg) scale(1);
-    }
 }
 
 nav{
@@ -80,3 +65,9 @@ td {
     background: #1d32a7;
 }
 
+footer{
+    background-color: #00a2ff;
+    width: 100%;
+    height: 150px;
+    float: left;
+}
